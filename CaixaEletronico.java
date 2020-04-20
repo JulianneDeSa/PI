@@ -42,10 +42,10 @@ public class CaixaEletronico {
         Scanner input = new Scanner(System.in); // cria um objeto do tipo scanner
         int valor;
         valor = input.nextInt(); //pede para o usuário digitar a quantidade de dinheiro que a pessoa quer retirar para os testes
-		fazRetirada(valor); //chama o método tendo como argumento o valor digitado pelo usuário
-		System.out.println("Notas de 50: "+n50);
-		System.out.println("Notas de 10: "+n10);
-		System.out.println("Notas de 5:  "+n5);
+	fazRetirada(valor); //chama o método tendo como argumento o valor digitado pelo usuário
+	System.out.println("Notas de 50: "+n50);
+	System.out.println("Notas de 10: "+n10);
+	System.out.println("Notas de 5:  "+n5);
         System.out.println("Notas de 1:  "+n1);
         input.close(); //finaliza o scanner
     }
